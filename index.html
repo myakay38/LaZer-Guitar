@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf8">
+    <title>LaZer Guitar</title>
+
+    <style>
+        body {
+            background-color: white;
+            font-size: 150%;
+        }
+
+        #bg {
+            /* width: 100%;
+            height: 5em;
+            padding: 1em;
+            justify-content: center;
+            align-content: center;
+            display: flex; */
+
+            width: 100%;
+            height: 20em;
+            display:flex;
+            justify-content: center;
+            overflow-x: hidden;
+            overflow-y: hidden;
+        }
+
+        #bg img {
+            min-width: 100%;
+            min-height: 100%;
+            object-fit: cover;
+            margin: auto;
+        }
+
+        #header {
+            background-color: rgba(0, 0, 0, 0.694);
+            color: white;
+
+            width: 100%;
+            height: 20em;
+            position: absolute;
+            top: 0;
+            left: 0;
+            margin: 0.3em;
+
+            text-align: center;
+            vertical-align: center;
+            line-height: 20em;
+        }
+
+        #video {
+            width: 100%;
+            text-align: center;
+            width: 100%;
+            height: 20em;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="bg">
+        <img src="https://raw.githubusercontent.com/myakay38/LaZer-Guitar/main/LaZer%20Guitar%20Screenshot.png" alt="LaZer Guitar">
+    </div>
+    <div id="header">
+        <h1>LaZer Guitar</h1>
+    </div>
+
+    <div id="Intro">
+        <h2>Introduction</h2>
+        <p>
+            I built the LaZer Guitar with a team of six for our first year design project. We wanted to build something collapsible and headphone-compatable so that students can store it in small dorm rooms and practice without disturbing their neighbours. Using a Raspberry Pi, TensorflowKeras API, and AutoCAD Inventor, we implemented a functioning prototype, shown below.
+        </p>
+    </div>
+
+    <div id="video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/pFGjbLlwNpw?si=iR1fmCiY8dfD1ygr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+</body>
+</html>
